@@ -11,3 +11,9 @@ equivalent to:
 ```js
 import { Foo as MyFoo } from './foo'
 ```
+
+Which feels closer to CommonJS:
+
+```js
+const { Foo: MyFoo } = require('./foo')
+```
